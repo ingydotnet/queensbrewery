@@ -1,0 +1,93 @@
+.TB_modal{
+	background-color: #fff;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 500px;
+	overflow: visible;
+}
+
+#wpdoor_message{
+	font-size: 22px;
+	text-align: center;	
+	
+}
+
+#wpdoor_message h1{
+	color: #fff;
+	background-color: #ff3200;
+	padding: 5px; margin: 0;
+	line-height: 1;
+	font-size: 200%;
+	text-align: center !important;
+}
+
+#wpdoor_msg{
+	display: block;
+	background-color:#FFF;
+	line-height: 1em;
+	color: #666;
+	overflow: auto;
+	margin: 10px 0;
+	border: 0px dotted #ccc;
+	padding: 15px;
+}
+
+#wpdoor_btn{
+	display: block;
+	background-color: #FFF;
+	text-align: center;
+	width: 500px;
+	margin: 0 auto;
+}
+
+#wpdoor_btn a, #wpdoor_btn a:visited{
+	width: 240px;
+	height: 45px;
+	float: left;
+
+	padding-top: 20px;
+	background-color: #999;
+	color: #fff !important;
+
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px;
+}
+
+#wpdoor_btn a:hover{
+	text-decoration: none;
+}
+
+a.wpdoor_enter, a.wpdoor_enter:visited{
+	float: right !important;
+	background-color: #943325 !important;
+}
+
+#TB_window{z-index: 9999; display: block !important;}
+#TB_overlay{z-index: 9999;}
+
+#TB_window {
+	position: fixed;
+	background: #ffffff;
+	z-index: 9999;
+	height: 525px;
+	width: 650px;
+	color: #943325;
+	visibility: hidden;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	border: 0px solid #f59636;
+	-moz-box-shadow: rgba(0,0,0,1) 0 4px 30px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 4px 30px;
+	-khtml-box-shadow: rgba(0,0,0,1) 0 4px 30px;
+	box-shadow: rgba(0,0,0,1) 0 4px 30px;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; 
+}
+

@@ -1,0 +1,16 @@
+HTTrack3.48-1+libhtsjava.so.2 launched on Sun, 21 Sep 2014 21:04:17 at http://www.queensbrewery.com/
+(httrack http://www.queensbrewery.com/ )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:04:19	Warning: 	Note: due to www.queensbrewery.com remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/, /wp-includes/ (see in the options to disable this)
+21:04:55	Error: 	"Forbidden" (403) at link www.queensbrewery.com/wp-content/themes/queensbrewery/map/icon/ (from www.queensbrewery.com/wp-content/themes/queensbrewery/map/script.js?ver=3.6.1)
+21:04:55	Error: 	"Not Found" (404) at link www.queensbrewery.com/qb_maps_qrw.png (from www.queensbrewery.com/wp-content/themes/queensbrewery/map/script.js?ver=3.6.1)
+21:04:55	Error: 	"Not Found" (404) at link www.queensbrewery.com/qb_maps.png (from www.queensbrewery.com/wp-content/themes/queensbrewery/map/script.js?ver=3.6.1)
+21:05:11	Warning: 	Warning, link #66 empty
+
+HTTrack Website Copier/3.48-1 mirror complete in 54 seconds : 65 links scanned, 61 files written (1038724 bytes overall) [1082393 bytes received at 20044 bytes/sec], 16.7 requests per connection
+(3 errors, 2 warnings, 0 messages)

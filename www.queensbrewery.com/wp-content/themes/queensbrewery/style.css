@@ -1,0 +1,315 @@
+/*
+Theme Name: Queens Brewery
+Theme URI: http://queensbrewery.com
+Description: Queens Brewery is a child theme of the twentyeleven WordPress theme
+Author:The Rare Studio
+Author URI: http://therarestudio.com
+Template: twentyeleven
+Version: 1.0
+*/
+
+/*
+      ___           ___           ___           ___     
+     /\  \         /\  \         /\  \         /\__\    
+    /::\  \       /::\  \       /::\  \       /:/ _/_   
+   /:/\:\__\     /:/\:\  \     /:/\:\__\     /:/ /\__\  
+  /:/ /:/  /    /:/ /::\  \   /:/ /:/  /    /:/ /:/ _/_ 
+ /:/_/:/__/___ /:/_/:/\:\__\ /:/_/:/__/___ /:/_/:/ /\__\
+ \:\/:::::/  / \:\/:/  \/__/ \:\/:::::/  / \:\/:/ /:/  /
+  \::/~~/~~~~   \::/__/       \::/~~/~~~~   \::/_/:/  / 
+   \:\~~\        \:\  \        \:\~~\        \:\/:/  /  
+    \:\__\        \:\__\        \:\__\        \::/  /   
+     \/__/         \/__/         \/__/         \/__/    
+
+STYLED BY THE RARE STUDIO DOT COM
+*/
+
+
+/* Import Responsive Styles */
+@import url('../twentyeleven/style.css');
+
+body {
+	background: #666;
+	line-height: 1.5em;
+}
+
+/* =Structure
+----------------------------------------------- */
+body {
+	padding: 0 2em;
+}
+
+#page {
+	margin: 2em auto;
+	max-width: 1000px;
+}
+
+#page {
+	max-width: 1000px;
+}
+
+
+#page {
+	clear: both;
+	margin: 0px auto;
+	max-width: none !important;
+	overflow: hidden;
+	padding: 0;
+	width: 960px !important;
+	-moz-box-shadow: 0px 0px 20px #000;
+	-webkit-box-shadow: 0px 0px 20px #000;
+	box-shadow: 0px 0px 20px #000;
+}
+
+#primary {overflow: hidden;}
+
+.entry-content {width: 100%; clear: both; overflow: hidden;}
+
+.alignright{float: right;}
+
+.alignleft{float: left;}
+
+#branding {
+	border-top: 0px solid #bbb;
+	padding-bottom: 0px;
+	position: relative;
+	z-index: 9999;
+}
+
+#small-text{
+	width: auto;
+	text-align: center;
+	margin: 15px 7.6% 10px 7.6%;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: #999;
+}
+
+.gray-box{
+	width: auto;
+	height: 4px;
+	background-color: #DDD;
+	margin: 3px 0px;
+}
+
+#header-image, #social-top, #teaser-text{
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 960px;
+}
+
+/* =Top Stuff 
+----------------------------------------------- */
+
+#social-top{
+	width: 940px;
+	height: 30px;
+	margin-top: 124px;
+}
+
+#social-top img{
+	float: right;
+	width: 24px;
+	height: 24px;
+	margin-left: 5px;
+}
+
+#teaser-text{
+	width: 960px;
+	text-align: center;
+	color: white;
+	top: 275px;
+	font-size: 22px;
+	line-height: 24px;
+	margin: 0 15px 0 15px;
+}
+
+#countdown{
+	color: #ff9933;
+}
+
+/* =Content
+----------------------------------------------- */
+#main {
+	clear: both;
+	padding: 0 0 0 0;
+	margin-top: 470px;
+}
+
+.recent-posts .entry-header hgroup .entry-title {
+	padding-top: 10px;
+}
+
+.hentry{
+	border-bottom: none;
+	
+}
+
+
+.singular.page .hentry {
+	padding: 0 0 0;
+}
+
+.singular .hentry {
+	border-bottom: none;
+	padding: 0;
+	position: relative;
+}
+
+
+/* One column */
+.one-column #page {
+	max-width: 960px;
+}
+
+/* ENTRY STUFF */
+.entry-title, .entry-header .entry-meta {
+	padding-right: 0px;
+	margin-bottom: 18px;
+}
+
+.entry-header .entry-title {
+	clear: both;
+	color: #95341f;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 1.5em;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.entry-title {
+	clear: both;
+	color: #95341f;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 1.5em;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.entry-meta {
+	color: #666;
+	clear: both;
+	font-size: 24px;
+	line-height: 18px;
+	text-align: center;
+}
+
+.entry-meta a {
+	font-weight: bold;
+}
+
+.orange{
+	color: #f7951d;
+}
+
+.entry-content,
+.entry-summary {
+	padding: 1em 0 0;
+	font-size: 24px;
+	line-height: 1.3em;
+	font-weight: normal;
+	color: #666;
+}
+
+
+/* Site Generator Line */
+#site-generator {
+	background: #95341f;
+	border-top: 0px solid #ddd;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #FFF;
+	font-size: 12px;
+	line-height: 1.5em;
+	padding: 20px 7.6%;
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+}
+
+#site-generator a{
+	color: #FFF;
+	font-style: normal;
+	font-weight: normal;
+}
+
+#site-generator a:hover{
+	text-decoration: underline;
+}
+
+.singular .entry-header .entry-meta {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+/* BOTTOM SOCIAL ICON STUFF
+----------------------------------------------- */
+#social-icons{
+	height: 35px;
+	padding-top: 10px;
+	vertical-align: middle;
+}
+
+#twitter, #google-plus, #facebook{
+	float: left;
+}
+
+#facebook{
+
+}
+
+
+
+div.sharedaddy .sd-content {
+	float: left !important;
+}
+
+div.sharedaddy div.sd-block {
+	border-top: 4px solid #ddd !important;
+	border-top: 4px solid rgba(0,0,0,.13) !important;
+}
+
+img#wpstats {
+	display: none;
+}
+
+
+/* MAP
+----------------------------------------------- */
+
+#map-canvas, #map_canvas {
+  height: 480px;
+}
+
+#map-canvas img{
+	
+	max-width: none;
+}
+
+@media print {
+  html, body {
+    height: auto;
+  }
+
+  #map-canvas, #map_canvas {
+    height: 650px;
+  }
+}
+
+#panel {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  margin-left: -180px;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+}
